@@ -14,7 +14,6 @@ body {
   gap: 10px;
 }
 .s-Logo {
-  width: auto;
   height: 30px;
 }
 .s-Title {
@@ -23,6 +22,7 @@ body {
 .s-Footer {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
+  justify-items: start;
 }
 .s-List {
   list-style: none;
