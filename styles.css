@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'SFMOMAText', Arial, Verdana, sans-serif;
+  color: black;
+  background-color: white;
+}
+.s-LogoAndTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.s-Logo {
+  width: auto;
+  height: 30px;
+}
+.s-Title {
+  color: #ff4e47;
+}
+.s-Footer {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.s-List {
+  list-style: none;
+}
+.s-Grey {
+  color: #636668;
+}
+.s-Time {
+  color: #636668;
+  font-size: 16px;
+  line-height: 24px;
+}
+.s-Link {
+  color: #ff4e47;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+.s-SocialMedia {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: #636668;
+  padding: 0px;
+}
+.s-Button {
+  border: 1px solid#636668;
+  background-color: white;
+  color: #636668;
+  border-radius: 16px;
+  height: 40px;
+  padding: 10px;
+}
+.s-SocialMediaAndNewsLetter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  padding: 1rem;
+  max-width: 1200px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
